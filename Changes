@@ -1,0 +1,72 @@
+Revision history for Perl extension Config::Savelogs.
+
+Release 0.11
+----------------------------
+revision 1.14
+date: 2009/03/22 04:11:03;  author: scott;  state: Exp;  lines: +2 -4
+- fix for add_group() on an empty config
+----------------------------
+
+Release 0.10
+----------------------------
+revision 1.13
+date: 2009/03/14 16:10:36;  author: scott;  state: Exp;  lines: +40 -9
+- data() now cleans up bogus groups; other methods adjusted to take
+  advantage of this
+----------------------------
+
+release 0.09
+----------------------------
+revision 1.12
+date: 2009/03/11 23:45:00;  author: scott;  state: Exp;  lines: +253 -12
+- lots of POD
+- is_dirty()
+- revert()
+----------------------------
+revision 1.11
+date: 2009/03/06 05:20:45;  author: scott;  state: Exp;  lines: +41 -14
+- fixes for empty groups, adding/removing groups, internal directive
+  storage consistency fixes
+----------------------------
+revision 1.10
+date: 2009/03/03 05:04:02;  author: scott;  state: Exp;  lines: +14 -2
+- find_group() by apachehost
+----------------------------
+revision 1.9
+date: 2009/02/28 23:35:18;  author: scott;  state: Exp;  lines: +25 -19
+- find_group()
+----------------------------
+revision 1.8
+date: 2009/02/25 04:46:45;  author: scott;  state: Exp;  lines: +3 -2
+- normalize group keys
+----------------------------
+revision 1.7
+date: 2009/02/25 04:40:18;  author: scott;  state: Exp;  lines: +8 -21
+- duplicates are ok I guess; if you don't like them use remove_group()
+----------------------------
+revision 1.6
+date: 2009/02/25 03:43:23;  author: scott;  state: Exp;  lines: +32 -11
+- skip duplicate groups when writing
+----------------------------
+revision 1.5
+date: 2009/02/20 05:11:47;  author: scott;  state: Exp;  lines: +97 -2
+- add easier accessors for group manipulation
+----------------------------
+revision 1.4
+date: 2009/02/19 14:09:16;  author: scott;  state: Exp;  lines: +46 -35
+- simplified parsing and internal storage
+- additional tests
+----------------------------
+revision 1.3
+date: 2009/02/10 02:08:45;  author: scott;  state: Exp;  lines: +13 -4
+- add to conf file
+----------------------------
+revision 1.2
+date: 2009/02/10 00:49:26;  author: scott;  state: Exp;  lines: +122 -27
+- basically working
+----------------------------
+revision 1.1
+date: 2009/01/31 22:16:07;  author: scott;  state: Exp;
+- initial import
+- some things working, most things not
+=============================================================================

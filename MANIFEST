@@ -1,0 +1,11 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/Config-Savelogs.t
+t/savelogs-5a.conf
+t/savelogs-5b.conf
+t/savelogs-5c.conf
+t/savelogs-5d.conf
+lib/Config/Savelogs.pm
+META.yml                                 Module meta-data (added by MakeMaker)
